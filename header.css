@@ -1,0 +1,60 @@
+﻿body {
+ 
+}
+.header{
+  position:fixed;
+  left:0;
+  right:0;
+  top:0;
+  height:100px;
+  background-color:#c7c7c7;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  border-bottom-color:#8a8a8a;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding-left:10px;
+}
+.header-logo{
+
+  display:flex;
+  justify-content:start;
+  width:300px;
+  margin-left:10px;
+}
+.logo-img{
+  height:78px;
+  width:60px;
+  object-fit:cover;
+  
+  
+
+}
+.name {
+  font-family: Fasthand;
+  font-size:40px;
+  width:160px;
+  margin-left:10px;
+  
+}
+.navbar{ 
+  display:flex;
+  justify-content:space-between;
+  width:350px;
+  
+}
+.link {
+  font-size: 20px;
+  
+  cursor: pointer;
+  width:100px;
+
+ 
+}
+.link:hover{
+  text-decoration:underline;
+  
+
+ 
+}
